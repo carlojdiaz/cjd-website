@@ -1,0 +1,48 @@
+/* Universal Stuff */
+
+body{
+    font-family: 'Inconsolata', monospace;
+    margin-left: 0px;
+    margin-right: 150px;
+}
+
+#navigation-bar{
+    margin-left: 0px;
+    margin-right: 500px;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+}
+
+#main-logo{
+    width: 40px;
+    height: 40px;
+}
+
+#main-logo img{
+    width: 50%;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color:gray;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-space-evenly{
+    justify-content: space-between;
+}
