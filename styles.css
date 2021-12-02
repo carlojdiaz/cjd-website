@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #2D2839;
     align-items: center;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #2D2839;
 }
 
 li, a{
@@ -51,29 +55,14 @@ header{
     justify-content: space-evenly;
 
     margin: 0 100px;
-    padding: 15px 0;
+    padding: 20px 0px;
     border-style: solid;
     border-width: 0 0 2px 0;
     border-color: #8D879B;
 }
 
-article{
+section{
     padding: 60px 475px;
-}
-
-.main-logo{
-    text-align: center;
-}
-
-.main-logo img{
-    width: 20%;
-    height: auto;
-    margin: auto;
-    display: block;
-}
-
-.social-links{
-    padding: 0px 110px;
 }
 
 .paragraph-link{
@@ -86,20 +75,38 @@ article{
     display: flex;
 }
 
-.align-items-start{
-    align-items: start;
+.justify-space-evenly{
+    justify-items:left;
 }
 
 .justify-content-center{
     justify-content: center;
 }
 
-.background-secondary-color{
-    background-color: white;
+.pad-bottom-60{
+    padding-bottom: 60px;
 }
 
-#self-portrait{
-    width: 25%;
-    height:auto;
-    display:block;
+.pad-right-25{
+    padding-right: 25px;
 }
+
+.pad-left-25{
+    padding-left: 25px;
+}
+
+.pic-img{
+    display:flex;
+    align-items: start;
+}
+
+#nav-bar{
+    display: flex;
+    gap:600px;
+}
+
+.header-title{
+    display: flex;
+    justify-content: center;
+}
+
