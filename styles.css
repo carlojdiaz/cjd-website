@@ -16,32 +16,44 @@ body{
     background-color: #2D2839;
 }
 
-li, a{
+header a{
     list-style: none;
     text-decoration: none;
     color: white;
     padding: 15px;
 }
 
-a{
+header a{
     font-weight: 600;
     font-size: 24px;
     transition: 0.3s;
 }
 
-a:visited{
+header a:visited{
     color: white;
 }
 
-a:hover{
+header a:hover{
     color: #BFBCC6;
     cursor: pointer;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
 }
 
 h1{
     padding-bottom: 40px;
     color: white;
     font-size: 55px;
+    font-weight: 60;
+}
+
+h2{
+    font-size: 25px;
     font-weight: 60;
 }
 
@@ -62,7 +74,7 @@ header{
 }
 
 section{
-    padding: 60px 475px;
+    padding: 65px 20%;
 }
 
 .paragraph-link{
@@ -110,3 +122,53 @@ section{
     justify-content: center;
 }
 
+#about-section a{
+    text-decoration: none;
+    color: #b2a3e6;
+    transition: 0.3s;
+}
+
+#about-section a:hover{
+    color: lightgray;
+    cursor: pointer;
+}
+
+#about-section a:visited{
+    text-decoration: none;
+}
+
+footer{
+    color: white;
+    margin: 0px 100px;
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+    border-color: #8D879B;
+    padding:70px 100px 70px 100px;
+    text-align: center;
+}
+
+
+footer input{
+    background-color: #cfcfcf;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    height:40px;
+    width: 450px;
+}
+
+footer button{
+    background-color: #cfcfcf;
+    height: 40px;
+    width: 65px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-left: #9c9c9c;
+    border-left-width: 1px;
+    border-left-style: solid;
+    transition: 0.3s;;
+}
+
+footer button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
