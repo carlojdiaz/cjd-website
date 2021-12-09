@@ -114,7 +114,7 @@ section{
 
 #nav-bar{
     display: flex;
-    gap:650px;
+    gap:500px;
 }
 
 .header-title{
@@ -167,10 +167,11 @@ footer button{
     border-left: #9c9c9c;
     border-left-width: 1px;
     border-left-style: solid;
-    transition: 0.3s;;
+    transition: 0.3s;
 }
 
 footer button:hover{
-    background-color: lightgray;
+    background-color: #9e9e9e;
+    color: white;
     cursor: pointer;
 }
