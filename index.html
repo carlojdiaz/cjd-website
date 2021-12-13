@@ -44,7 +44,7 @@
 
         <section id = "about-section" style="background-color: #241f2e;">
             <div class = "header-title">
-                <h1 id = "about-header">About</h1>
+                <h1>About</h1>
             </div>
             <div class="pic-img">
                 <p class="pad-right-25">
@@ -62,7 +62,7 @@
 
         <section id = "gallery-section">
             <div class = "header-title">
-                <h1 id = "gallery-header">Gallery</h1>
+                <h1>Gallery</h1>
             </div>
             <div class="pic-img pad-bottom-60">
                 <p class="pad-right-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quisquam maxime, modi repudiandae doloribus similique nemo labore incidunt, laborum impedit molestias nobis suscipit voluptate rem itaque unde asperiores voluptatibus eos?</p>
@@ -74,20 +74,44 @@
             </div>
         </section>
 
+        <section id = question-section" style="background-color: #241f2e;">
+            <div class = "header-title">
+                <h1>Questions</h1>
+            </div>
+            
+            <div>
+                <div style="padding-bottom: 10px;">
+                    <div class="d-flex justify-content-center">
+                        <textarea name="name" rows="1" cols="65" style="padding:10px; resize: none;" placeholder="Name"></textarea>
+                    </div>
+                </div>
+                <div style="padding-bottom: 10px;">
+                    <div class="d-flex justify-content-center">
+                        <textarea name="message" rows="4" cols="65" style="padding:10px; resize: none;" placeholder="Ask me questions, or give me feedback!"></textarea>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+
+        </section>
+
     </body>
 
+    <div style="background-color: #241f2e;">
     <footer>
         <div class="d-flex" style="justify-content: center;">
             <div class="container d-flex" style="gap:300px;">
                 <form method="POST" class="email-form">
-                    <h2>E-mail me</h2>
+                    <h2>Send an E-mail</h2>
                     <div class="container d-flex" style="padding-top: 22px;">
                         <input type="text" placeholder="E-Mail Address">
                         <button>Submit</button>
                     </div>
                 </form>
                 <div class="container">
-                    <h2>Connect with me</h2>
+                    <h2>Connect</h2>
                     <ul class = "d-flex" style="justify-content: center; font-size: 22px; padding-top: 22px;">
                         <li><a href = "https://www.github.com/carlojdiaz" target="_blank"><i class = "fa fa-github" style="color:white"></i></a></li>
                         <li><a href = "https://www.instagram.com/main.cjd/" target="_blank"><i class = "fa fa-instagram" style="color:white"></i></a></li>
@@ -100,6 +124,7 @@
 
         <p style="padding-top: 60px; font-size: 18px;">Created by Carlo Diaz. © 2021</p>
     </footer>
+    </div>
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="main.js"></script>
