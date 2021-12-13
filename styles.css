@@ -78,17 +78,6 @@ section{
     padding: 80px 20%;
 }
 
-textarea{
-    background-color: #cfcfcf;
-    font-family: 'Montserrat', sans-serif;
-    font-size: large;
-    border: none;
-}
-
-textarea:focus{
-    outline: none;
-}
-
 input{
     background-color: #cfcfcf;
     font-family: 'Montserrat', sans-serif;
