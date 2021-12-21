@@ -95,23 +95,6 @@ section{
     justify-content: center;
 }
 
-.pad-bottom-60{
-    padding-bottom: 60px;
-}
-
-.pad-right-25{
-    padding-right: 25px;
-}
-
-.pad-left-25{
-    padding-left: 25px;
-}
-
-.pic-img{
-    display:flex;
-    align-items: start;
-}
-
 #nav-bar{
     display: flex;
     gap:650px;
@@ -135,6 +118,16 @@ section{
 
 #about-section a:visited{
     text-decoration: none;
+}
+
+.slideshow-container{
+    width: 60%;
+    margin: none;
+    overflow: hidden;
+}
+
+.slideshow{
+    display: flex;
 }
 
 footer{

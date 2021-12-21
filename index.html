@@ -36,7 +36,7 @@
                 <img id = "home-logo" src = "photos/CARLO J DIAZ.png" style = "width:350px;padding-bottom: 40px;" alt = "">
             </div>
             <div class = "container">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque labore voluptatibus animi autem sunt libero dignissimos doloribus unde sapiente velit, aut aliquid corporis perspiciatis eaque repellat ducimus illo iste! Voluptatum.</p>
+                <p>Welcome to my website.</p>
             </div>
         </section>
 
@@ -46,7 +46,7 @@
             <div class = "header-title">
                 <h1 id = "about-header">About</h1>
             </div>
-            <div class="pic-img">
+            <div style="display:flex; align-items: start;">
                 <p class="pad-right-25">
                     Hello! My name is Carlo Diaz, and I am a computer science major at Old Dominion University. My hobbies and interests include playing music (mainly the piano), video games, watching sports, and anything computer related.
                     This is my first official website, and serves as a side project containing HTML, CSS, and JavaScript. My main coding languages are C++ and Java, and I have experience with Python as well.
@@ -54,7 +54,7 @@
                     <a class = "paragraph-link" href = "https://www.github.com/carlojdiaz" target="_blank">Github page</a>
                     to see some of my repos.
                 </p>
-                <img style = "width: 25%;" src = "photos/dirag.png" alt = "">
+                <img style = "width: 25%;" src = "photos/qt.jpg" alt = "">
             </div>
         </section>
 
@@ -64,41 +64,43 @@
             <div class = "header-title">
                 <h1 id = "gallery-header">Gallery</h1>
             </div>
-            <div class="pic-img pad-bottom-60">
-                <p class="pad-right-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quisquam maxime, modi repudiandae doloribus similique nemo labore incidunt, laborum impedit molestias nobis suscipit voluptate rem itaque unde asperiores voluptatibus eos?</p>
-                <img style = "width: 25%;" src = "photos/dirag.png" alt = "">
+
+            <div class="d-flex" style="gap:0px;  justify-content: center;">
+                <button id="prevBtn">previous</button>
+                <div class="slideshow-container">
+                    <div class="slideshow">
+                        <img src="photos/hollywood.JPG" id="lastClone" style="width:100%;">
+                        <img src="photos/setup.JPG" style="width:100%;">
+                        <img src="photos/niagara.JPG" style="width:100%;">
+                        <img src="photos/graduation.JPG" style="width:100%;">
+                        <img src="photos/hollywood.JPG" style="width:100%;">
+                        <img src="photos/setup.JPG" id="firstClone" style="width:100%;">
+                    </div>
+                </div>
+                <button id="nextBtn">next</button>
             </div>
-            <div class="pic-img pad-bottom-60">
-                <img style = "width: 25%;" src = "photos/qt.jpg" alt = "">
-                <p class="pad-left-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui iusto inventore nesciunt. Quod reprehenderit at eaque quo aliquam. Fuga aut veritatis nulla sit ipsam ea fugiat voluptas voluptatem dolorem?</p>
-            </div>
+            
+
+
         </section>
 
     </body>
 
     <footer>
-        <div class="d-flex" style="justify-content: center;">
-            <div class="container d-flex" style="gap:300px;">
-                <div class="container">
-                    <h2>E-mail me</h2>
-                    <div class="container d-flex" style="padding-top: 22px;">
-                        <input type="text" placeholder="E-Mail Address">
-                        <button>Submit</button>
-                    </div>
-                </div>
-                <div class="container">
-                    <h2>Connect with me</h2>
-                    <ul class = "d-flex" style="justify-content: center; font-size: 22px; padding-top: 22px;">
-                        <li><a href = "https://www.github.com/carlojdiaz" target="_blank"><i class = "fa fa-github" style="color:white"></i></a></li>
-                        <li><a href = "https://www.instagram.com/main.cjd/" target="_blank"><i class = "fa fa-instagram" style="color:white"></i></a></li>
-                        <li><a href = "https://www.youtube.com/channel/UCWxrpWa420I8_kK1y8iksvQ" target="_blank"><i class = "fa fa-youtube-play" style="color:white"></i></a></li>
-                        <li><a href = "https://www.twitch.tv/ceejaydeee/" target="_blank"><i class = "fa fa-twitch" style="color:white"></i></a></li>
-                    </ul>
-                </div>
+        <div class="container d-flex" style="justify-content: center;">
+            <div class="container">
+                <h2>Connect with me</h2>
+                <ul class = "d-flex" style="justify-content: center; font-size: 22px; padding-top: 22px;">
+                    <li><a href = "https://www.github.com/carlojdiaz" target="_blank"><i class = "fa fa-github" style="color:white"></i></a></li>
+                    <li><a href = "https://www.instagram.com/main.cjd/" target="_blank"><i class = "fa fa-instagram" style="color:white"></i></a></li>
+                    <li><a href = "https://www.youtube.com/channel/UCWxrpWa420I8_kK1y8iksvQ" target="_blank"><i class = "fa fa-youtube-play" style="color:white"></i></a></li>
+                    <li><a href = "https://www.twitch.tv/ceejaydeee/" target="_blank"><i class = "fa fa-twitch" style="color:white"></i></a></li>
+                </ul>
             </div>
         </div>
 
         <p style="padding-top: 60px; font-size: 18px;">Created by Carlo Diaz. © 2021</p>
     </footer>
 
+    <script src="app.js"></script>
 </html>
